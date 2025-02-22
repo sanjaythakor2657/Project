@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+/* header style code start */
+/* ---------------------------------------------------------------- */
+/* contact nav css code start */
+h5{
+  font-weight: 800;
+}
+.navtop {
+  background-color: #000000;
+  max-width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 2px;
+  align-items: center;
+}
+
+.navtop .number {
+  margin-left: 5px;
+  color: white;
+  padding: 2px;
+
+}
+
+.navtop .email {
+  margin-left: 5px;
+  color: white;
+  padding: 2px;
+}
+
+.navtop a {
+  font-size: small;
+  color: white;
+  text-decoration: none;
+
+}
+
+
+
+/* contact nav css code End */
+
+/* main banner css code start */
+.mainbanner {
+  background-color: rgb(255, 255, 255);
+
+  max-width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.banerimg {
+  border: 2px solid rgb(255, 255, 255);
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.banerimg img {
+  max-width: 100%;
+
+}
+
+/* main banner css code end */
+
+/* main navbar code start */
+.navbar {
+  position:static;
+  background-color:#07413e;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 15px;
+  box-shadow: #000000;
+  scrollbar-shadow-color: #000000;
+}
+
+.navbar a {
+   font-style:bold;
+   font-weight: 600;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: medium;
+  padding: 10px;
+  margin: 5px;
+  font-size: larger;
+
+
+
+}
+
+.navbar .row {
+  display: inline;
+}
+
+/* main navbar code end */
+
+/* about css code start */
+
+#about {
+  background-color:#ffe600;
+  padding-bottom: 30px;
+  color: rgb(0, 0, 0);
+
+
+
+}
+
+#about .title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#about .content {
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about .content .picture {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+
+  overflow: hidden;
+
+
+
+}
+
+#about .content .picture img {
+  max-width: 80%;
+  max-height:100% ;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#about .content .text {
+  display: flex;
+  flex-wrap: nowrap;
+
+  flex-direction: column;
+  max-height: 350px;
+  padding: 10px;
+
+  overflow: hidden;
+  padding: 30px;
+
+
+}
+
+#about .content .text p {
+  text-align: justify;
+
+
+}
+
+/* about css code end */
+/* principal desk code start */
+#principal {
+  background-color: #111A24;
+}
+
+#principalabout p {
+  text-align: justify;
+  font-size: large;
+}
+
+#principalabout h3 {
+  text-align: center;
+}
+
+#principal .title h1 {
+  background-color: #111A24;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+#principal .picture {
+  background-color: #111A24;
+  display: flex;
+  justify-content: center;
+}
+
+#principal .picture img {
+  margin: 10px;
+  border-radius: 2px;
+}
+#principal .paragraph{
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%
+}
+
+
+/* principal desk code end */
+/* trade css code start */
+#trade{
+ background-color:#e4dfe7;
+}
+#trade .card{
+  margin: 20px;
+  padding: 10px;
+  background-color:#e3e4eb;
+  color: rgb(0, 0, 0);
+}
+
+/* trade code end */
+/* footer code :start */
+#footer a{
+margin: 5px;
+color: white;
+  
+}
+
+
+
+/* footer code :end */
+
+/* header style code end */
